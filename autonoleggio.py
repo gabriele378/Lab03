@@ -3,7 +3,7 @@ from noleggio import Noleggio
 import operator
 
 class Autonoleggio:
-    def __init__(self, nome, responsabile, macchine):
+    def __init__(self, nome, responsabile):
         """Inizializza gli attributi e le strutture dati"""
         # TODO
         self.nome = nome
