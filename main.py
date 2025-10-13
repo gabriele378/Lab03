@@ -1,5 +1,6 @@
 from autonoleggio import Autonoleggio
 from datetime import datetime
+from automobile import Automobile
 
 def menu():
     print("\n--- MENU AUTONOLEGGIO ---")
