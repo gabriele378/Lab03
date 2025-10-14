@@ -11,6 +11,9 @@ class Autonoleggio:
         self.macchine = []
         self.noleggi = []
 
+    def __str__(self):
+        return f"{self.nome} {self.responsabile}"
+
 
 
     def carica_file_automobili(self, file_path):

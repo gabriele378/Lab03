@@ -4,3 +4,6 @@ class Noleggio:
         self.data = data
         self.auto = auto
         self.cliente = cliente
+
+    def __str__(self):
+        return f"{self.codice} {self.data} {self.auto} {self.cliente}"
